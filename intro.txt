@@ -1,0 +1,18 @@
+Thread: A thread describes in which context some sequence of instructions should be executed.
+
+In android apps if we don't use multithreading, it runs on main thread.
+
+---------------------
+updateUI();
+doNetworkCall();
+updateUI();
+----------------------
+
+Coroutines: 1. Executed within a thread 2. Unlike threads Coroutines are suspendable 3. Unlike threads Coroutines can switch their context(one thread -> another thread).
+
+Coroutines: Lightweight threads with some useful extra functionalities.
+
+
+
+
+	
