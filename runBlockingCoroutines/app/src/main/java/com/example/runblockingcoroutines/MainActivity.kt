@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             Log.d(TAG, "Start of runBlocking.")
-            delay(10000) // Similar to Thread.sleep(7000) outside of runBlocking
+            delay(10000) // Similar to Thread.sleep(10000) outside of runBlocking
             Log.d(TAG, "End of runBlocking.")
         }
         Log.d(TAG, "After runBlocking")
